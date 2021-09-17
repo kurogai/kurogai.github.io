@@ -1,0 +1,131 @@
+/* Main css to style and fit content together, nothing to do about beauty */
+html,body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: '00TT';
+    src: url(../fonts/00TT.TTF);
+}
+
+html{
+    background-image: url(../img/background5.jpg);
+    background-size: cover;
+    font-family: '00TT';
+    font-size: 14px;
+}
+
+.container{
+    float: left;
+    max-height: 50px;
+}
+
+.desktop{
+    color: white;
+    display: flex;
+}
+
+.column{
+    margin-left: 15px;
+    text-align: center;
+}
+
+.desktop-icon{
+    text-align: center;
+    max-width: 50px;
+    align-content: center;
+    cursor: pointer;
+}
+
+.navbar{
+    /* background-color:rgba(255,0,0,0.3); love it! <3 */
+    background-color: #c0c9de;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-item{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left{
+    position: fixed;
+}
+
+.navbar-notifications{
+    float: right;
+    display: flex;
+    margin: 1px;
+    border: 5px black;
+    background-color: rgb(150, 150, 150);
+}
+
+#icon-navbar{
+    margin: 1px;
+    width: 18px;
+    height: 18px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+}
+
+#icon img{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+
+#division{
+    background-color: rgb(156, 156, 156);
+    width: 2px;
+    height: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#icon-navbar:first-child{
+    cursor: pointer;
+    object-fit: cover;
+    padding-top: 4px;
+    padding-right: 30px;
+    border: black;
+}
+
+.program{
+    cursor: pointer;
+    border-style: inset;
+    border-width: 2px;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 180px !important;
+}
+
+.right-bar{
+    background-color: #c0c9de;
+    width: 180px !important;
+}
+
+.right-bar span{
+    margin-right: 4px;
+}
+
+/*
+
+.window{
+    background-color: whitesmoke;
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+
+.window-head{
+    background-color: blueviolet;
+}
+*/
